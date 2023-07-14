@@ -1,0 +1,3 @@
+from keyboards.admin_keyboards import admin_main_keyboard, admin_shop_management_keyboard, admin_user_management_keyboard, admin_bot_management_keyboard,\
+    admin_ban_management_keyboard, admin_database_options_keyboard, admin_category_management_keyboard, admin_product_management_keyboard
+from keyboards.user_keyboards import user_main_keyboard, user_profile_management_keyboard

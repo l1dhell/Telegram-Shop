@@ -1,0 +1,4 @@
+from keyboards.user_keyboards.user_keyboards import create_user_main_keyboard, create_user_profile_management_keyboard
+
+user_main_keyboard = create_user_main_keyboard()
+user_profile_management_keyboard = create_user_profile_management_keyboard()

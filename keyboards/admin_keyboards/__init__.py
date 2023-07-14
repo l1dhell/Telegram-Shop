@@ -1,0 +1,13 @@
+from keyboards.admin_keyboards.admin_keyboards import create_admin_main_keyboard, create_admin_user_management_keyboard,\
+    create_admin_shop_management_keyboard, create_admin_bot_management_keyboard, create_admin_ban_management_keyboard, create_admin_database_options_keyboard,\
+    create_admin_category_management_keyboard, create_admin_product_management_keyboard
+
+
+admin_main_keyboard = create_admin_main_keyboard()
+admin_user_management_keyboard = create_admin_user_management_keyboard()
+admin_shop_management_keyboard = create_admin_shop_management_keyboard()
+admin_bot_management_keyboard = create_admin_bot_management_keyboard()
+admin_ban_management_keyboard = create_admin_ban_management_keyboard()
+admin_database_options_keyboard = create_admin_database_options_keyboard()
+admin_product_management_keyboard = create_admin_product_management_keyboard()
+admin_category_management_keyboard = create_admin_category_management_keyboard()
